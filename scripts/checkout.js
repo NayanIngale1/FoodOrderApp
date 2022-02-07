@@ -7,6 +7,7 @@ document.querySelector("form").addEventListener("submit", function (event) {
     orderReady();
     OrderOut();
     OrderDelivered();
+    cartEmpty();
 })
 
 function orderCooked() {
@@ -38,5 +39,10 @@ function OrderDelivered() {
     }, 12000)
     
    
+}
+
+function cartEmpty() {
+    cartArr = [];
+    localStorage.setItem("cart", JSON.stringify(cartArr));
 }
 
