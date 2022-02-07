@@ -60,3 +60,42 @@ body {
   font-weight: 700;
   background-color: green;
 }
+
+@media only screen and (max-width: 1100px) {
+  #navbar > a {
+    margin: 0px 20px;
+    font-size: 20px;
+  }
+
+  #menu {
+    width: 80%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+  }
+}
+@media only screen and (max-width: 765px) {
+  #navbar > a {
+    margin: 0px 10px;
+    font-size: 18px;
+  }
+  #menu {
+    width: 80%;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 30px;
+  }
+}
+@media only screen and (max-width: 525px) {
+  #navbar > a {
+    margin: 0px 10px;
+    font-size: 18px;
+  }
+  #count {
+    font-size: 18px;
+    margin: 0px 10px;
+  }
+  #menu {
+    width: 80%;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 30px;
+  }
+}

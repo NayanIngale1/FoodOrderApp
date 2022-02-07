@@ -11,7 +11,8 @@ body {
   text-align: center;
   font-weight: 700;
   border: 1px solid rgb(207, 207, 207);
-  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px,
+    rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
 }
 .card > p {
   font-size: 20px;
@@ -30,16 +31,16 @@ body {
   background-color: #ff0000e8;
 }
 
-#total{
-    background-color: rgb(17, 83, 0);
-    width: fit-content;
-    font-size: 30px;
-    color: white;
-    margin: 20px 50px ;
-    padding: 20px 50px ;
+#total {
+  background-color: rgb(17, 83, 0);
+  width: fit-content;
+  font-size: 30px;
+  color: white;
+  margin: 20px 50px;
+  padding: 20px 50px;
 }
 
-#checkbtn{
+#checkbtn {
   margin: 20px 50px;
   padding: 20px 40px;
   color: white;
@@ -47,4 +48,20 @@ body {
   font-weight: 700;
   font-size: 20px;
   background-color: #000000e8;
+}
+
+@media only screen and (max-width: 1100px) {
+    .card {
+    width: 60%;
+  }
+}
+@media only screen and (max-width: 765px) {
+  .card {
+    width:60%;
+  }
+}
+@media only screen and (max-width: 525px) {
+  .card {
+    width: 90%;
+  }
 }

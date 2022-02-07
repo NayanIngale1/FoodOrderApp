@@ -23,3 +23,15 @@ input {
   font-weight: 700;
   background-color: green;
 }
+
+@media only screen and (max-width: 525px) {
+#order-form {
+  width: 80%;
+  font-size: 20px;
+}
+input {
+  font-size: 100%;
+  margin: 20px;
+  width: 80%;
+}
+}
